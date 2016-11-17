@@ -1,17 +1,16 @@
-<%= content_for :header_title do %>
-
-   Contact us
-
-<% end %>
-
-<%= content_for :header_sub_title do %>
-
-   Find us here
-
-<% end %>
-
-<div id="maps">
-
-   <%= render 'map' %>
-
-</div>
+<font color="WHITE"><h2>Contactanos</h2></font>
+<form id="contact_form" action="#" method="POST" enctype="multipart/form-data">
+	<div class="row">
+		<label for="name"><font color="WHITE">Tu nombre:</font></label><br />
+		<input id="name" class="input" name="name" type="text" value="" size="10" /><br />
+	</div>
+	<div class="row">
+		<label for="email"><font color="WHITE">Tu email:</font></label><br />
+		<input id="email" class="input" name="email" type="text" value="" size="10" /><br />
+	</div>
+	<div class="row">
+		<label for="message"><font color="WHITE">Tu mensaje:</font></label><br />
+		<textarea id="message" class="input" name="message" rows="7" cols="60"></textarea><br />
+	</div>
+	<input id="submit_button" type="submit" value="Send email" />
+</form>						

@@ -12,6 +12,10 @@ Rails.application.routes.draw do
   get 'pages/Login'
   
   get 'pages/inicio'
+  
+  get 'pages/canciones'
+  
+  get 'pages/c'
 
   # For details on the DSL available within this file, see http://guides.rubyonrails.org/routing.html
 end

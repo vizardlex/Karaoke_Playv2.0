@@ -1,0 +1,969 @@
+<style type="text/css">
+
+header {
+	color:white;
+	text-align: center;
+	font-family: Comic Sans MS;
+	font-size: 80px;
+}
+
+.nav1 {
+	color: white;
+	font-size: 25px;
+}
+</style>
+
+<html>
+<head>
+	<meta charset="utf-8">
+	<title>Karaoke Play</title>
+	<link rel="stylesheet" type="text/css" href="css/estilos.css">
+</head>
+<body>
+  <font color="WHITE">
+<p style="color: #FFFFFF">
+	<img src="imagenes\karaoke1.jpg" width=178 height=180 align=left>
+	<header>Karaoke Play</header>
+	<h1 style="text-align: center">En Karaoke, lo mejor...</h1>
+	<p style="color: #FFFFFF">
+	<nav class="nav1">Selecciona tu canción y disfruta</nav>
+	</p> 
+	</font>
+	<font color="WHITE">
+	<span>Generos</span>
+	</font>
+	<select name="generos" id="generos">
+		<option values="Bachata">Bachata</option>
+		<option values="Balada">Balada</option>
+		<option values="Bolero">Bolero</option>
+		<option values="Cumbia">Cumbia</option>
+		<option values="Folklore">Folklore</option>
+		<option values="Guaracha">Guaracha</option>
+		<option values="Metal">Metal</option>
+		<option values="Pop">Pop</option>
+		<option values="Rock">Rock</option>
+		<option values="Salsa">Salsa</option>
+		<option values="Vals">Vals</option>
+	</select>
+	<font color="WHITE">
+	<span>Artistas</span>
+	</font>
+	<select name="artistas" id="artistas">
+		<option values=artista1>ADAMO</option>
+		<option values=artista2>ALBERTO  VASQUEZ & J SEBASTIAN</option>
+		<option values=artista3>ALBERTO CORTEZ</option>
+		<option values=artista4>ALBERTO PLAZA</option>
+		<option values=artista5>ALEJANDRA GUZMAN</option>
+		<option values=artista6>ALEJANDRO & BETH</option>
+		<option values=artista7>ALEJANDRO FERNANDEZ</option>
+		<option values=artista8>ALEJANDRO LERNER</option>
+		<option values=artista9>ALEJANDRO SANZ & ANDREA CORRS</option>
+		<option values=artista10>ALEJANDRO SANZ</option>
+		<option values=artista11>ALEX CAMPOS</option>
+		<option values=artista12>ALTEMAR DUTRA</option>
+		<option values=artista13>ALVARO TORRES</option>
+		<option values=artista14>AMAURY GUTIERREZ</option>
+		<option values=artista15>ANA CIRRE</option>
+		<option values=artista16>ANA GABRIEL & VICKY CARR</option>
+		<option values=artista17>ANA GABRIEL</option>
+		<option values=artista18>ANGELA CARRASCO & CAMILO SESTO</option>
+		<option values=artista19>ANGELA CARRASCO & WILLY CHIRIGNO</option>
+		<option values=artista20>ANGELICA MARIA</option>
+		<option values=artista21>ANTONELLA ARANCIO</option>
+		<option values=artista22>ANTONIETA</option>
+		<option values=artista23>ANTONIO PRIETO</option>
+		<option values=artista24>ARMANDO MANZANERO</option>
+		<option values=artista25>ARTISTAS UNIDOS</option>
+		<option values=artista26>ATERCIOPELADOS</option>
+		<option values=artista27>BACILOS</option>
+		<option values=artista28>BANANA</option>
+		<option values=artista29>BASILIO</option>
+		<option values=artista30>BILLY CAFFARO</option>
+		<option values=artista31>BRAULIO</option>
+		<option values=artista32>BUDDY RICHARD</option>
+		<option values=artista33>CADILLACS</option>
+		<option values=artista34>CAMILO SESTO & ANGELA CARRASCO</option>
+		<option values=artista35>CAMILO SESTO</option>
+		<option values=artista36>CANCION POPULAR</option>
+		<option values=artista37>CARLOS JAVIER BELTRAN</option>
+		<option values=artista38>CARLOS PONCE</option>
+		<option values=artista39>CARLOS VIVES</option>
+		<option values=artista40>CELIA CRUZ</option>
+		<option values=artista41>CESAR COSTA</option>
+		<option values=artista42>CHAYANNE</option>
+		<option values=artista43>CHEO FELICIANO</option>
+		<option values=artista44>CHRISTIAN MEIER</option>
+		<option values=artista45>COMPLICES</option>
+		<option values=artista46>CONTINUADOS</option>
+		<option values=artista47>CRISTIAN CASTRO</option>
+		<option values=artista48>DANILO MONTERO</option>
+		<option values=artista49>DANNY DANIEL</option>
+		<option values=artista50>DARIO BALDAN BEMBO</option>
+		<option values=artista51>DEMIS ROUSSOS</option>
+		<option values=artista52>DIEGO TORRES</option>
+		<option values=artista53>DIEGO VERDAGUER</option>
+		<option values=artista54>DJ OMAR</option>
+		<option values=artista55>DONALD</option>
+		<option values=artista56>DUO DINAMICO</option>
+		<option values=artista57>DYANGO & PIMPINELA</option>
+		<option values=artista58>DYANGO</option>
+		<option values=artista59>EDDY HERRERA</option>
+		<option values=artista60>EL GRECO</option>
+		<option values=artista61>EMMANUEL</option>
+		<option values=artista62>ENANITOS VERDES</option>
+		<option values=artista63>ENRIQUE GUZMAN</option>
+		<option values=artista64>FAUSTO</option>
+		<option values=artista65>FEDRA & MAXIMILIANO</option>
+		<option values=artista66>FLORICIENTA</option>
+		<option values=artista67>FOREIGNER</option>
+		<option values=artista68>FORMULA V</option>
+		<option values=artista69>FRAGIL</option>
+		<option values=artista70>FRANCO DE VITA</option>
+		<option values=artista71>FRANCO SIMONE</option>
+		<option values=artista72>GABRIELA FERRI</option>
+		<option values=artista73>GALI GALIANO</option>
+		<option values=artista74>GIANLUCA GRIGNANI</option>
+		<option values=artista75>GIANMARCO ZIGNAGO</option>
+		<option values=artista76>GIGIOLA CINQUETTI</option>
+		<option values=artista77>GILBERTO SANTAROSA</option>
+		<option values=artista78>GRUPO ELEFANTE</option>
+		<option values=artista79>GRUPO TEMPANO</option>
+		<option values=artista80>GUILLERMO DAVILA</option>
+		<option values=artista81>HECTOR MONTANER</option>
+		<option values=artista82>HEIDI</option>
+		<option values=artista83>HOMBRES G</option>
+		<option values=artista84>I CAMALEONTI</option>
+		<option values=artista85>I POOH</option>
+		<option values=artista86>ISABEL PANTOJA</option>
+		<option values=artista87>JAVIER SOLIS</option>
+		<option values=artista88>JEANETTE</option>
+		<option values=artista89>JERRY RIVERA</option>
+		<option values=artista90>JESUS ADRIAN ROMERO & LILLY GOODMAN</option>
+		<option values=artista91>JESUS ADRIAN ROMERO</option>
+		<option values=artista92>JIMMY FONTANA</option>
+		<option values=artista93>JOAN SEBASTIAN</option>
+		<option values=artista94>JOE DASSIN</option>
+		<option values=artista95>JOE VASCONCELLOS</option>
+		<option values=artista96>JORGE CONTI</option>
+		<option values=artista97>JORGE CORREA</option>
+		<option values=artista98>JOSE ALFREDO JIMENEZ</option>
+		<option values=artista99>JOSE AUGUSTO</option>
+		<option values=artista100>JOSE FELICIANO</option>
+		<option values=artista101>JOSE JOSE & LANI HALL</option>
+		<option values=artista102>JOSE JOSE & LANY HALL</option>
+		<option values=artista103>JOSE JOSE & PIMPINELA</option>
+		<option values=artista104>JOSE JOSE</option>
+		<option values=artista105>JOSE LUIS PERALES</option>
+		<option values=artista106>JOSE LUIS RODRIGUEZ</option>
+		<option values=artista107>JOSE VELEZ</option>
+		<option values=artista108>JUAN & JUAN</option>
+		<option values=artista109>JUAN BAU</option>
+		<option values=artista110>JUAN CARLOS</option>
+		<option values=artista111>JUAN GABRIEL</option>
+		<option values=artista112>JUAN LUIS GUERRA</option>
+		<option values=artista113>JUAN RAMON</option>
+		<option values=artista114>JUANES</option>
+		<option values=artista115>JUANES Y NELLY FURTADO</option>
+		<option values=artista116>JULIO IGLESIAS</option>
+		<option values=artista117>JUNIOR</option>
+		<option values=artista118>KARINA</option>
+		<option values=artista119>KATUNGA</option>
+		<option values=artista120>KELA GATES</option>
+		<option values=artista121>KIKE VILLANUEVA</option>
+		<option values=artista122>LA JOVEN GUARDIA</option>
+		<option values=artista123>LA LOCA MARIA</option>
+		<option values=artista124>LA MAFIA</option>
+		<option values=artista125>LA PEQUEÑA COMPAÑIA</option>
+		<option values=artista126>LANY HALL</option>
+		<option values=artista127>LAURA PAUSINI</option>
+		<option values=artista128>LAURENT VOUZLY</option>
+		<option values=artista129>LEANDRO & LEONARDO</option>
+		<option values=artista130>LEO DAN</option>
+		<option values=artista131>LEONARDO FAVIO</option>
+		<option values=artista132>LOLITA</option>
+		<option values=artista133>LORENZO ANTONIO</option>
+		<option values=artista134>LORENZO DE SANTAMARIA</option>
+		<option values=artista135>LOS AMAYA</option>
+		<option values=artista136>LOS ANGELES</option>
+		<option values=artista137>LOS ANGELES NEGROS</option>
+		<option values=artista138>LOS BRIOS</option>
+		<option values=artista139>LOS BUKIS [M_A_SOLIS]</option>
+		<option values=artista140>LOS CINCO LATINOS</option>
+		<option values=artista141>LOS CUATRO SOLES</option>
+		<option values=artista142>LOS DOLTONS</option>
+		<option values=artista143>LOS GALOS</option>
+		<option values=artista144>LOS GATOS</option>
+		<option values=artista145>LOS GOLPES</option>
+		<option values=artista146>LOS GRITOS</option>
+		<option values=artista147>LOS HERMANOS CASTRO</option>
+		<option values=artista148>LOS HOLLIGANS</option>
+		<option values=artista149>LOS IRACUNDOS</option>
+		<option values=artista150>LOS MITOS</option>
+		<option values=artista151>LOS MORUNOS</option>
+		<option values=artista152>LOS NOCHEROS</option>
+		<option values=artista153>LOS PAKINES</option>
+		<option values=artista154>LOS PANCHOS</option>
+		<option values=artista155>LOS PASOS</option>
+		<option values=artista156>LOS PASTELES VERDES</option>
+		<option values=artista157>LOS PRADOS</option>
+		<option values=artista158>LOS PRISIONEROS</option>
+		<option values=artista159>LOS RANCHEROS</option>
+		<option values=artista160>LOS TERRICOLAS</option>
+		<option values=artista161>LOS TORIBIANITOS</option>
+		<option values=artista162>LUCERO & MIJARES</option>
+		<option values=artista163>LUCERO</option>
+		<option values=artista164>LUCY VILLA</option>
+		<option values=artista165>LUIS ANGEL</option>
+		<option values=artista166>LUIS MIGUEL</option>
+		<option values=artista167>MANA</option>
+		<option values=artista168>MANOLO GALVAN</option>
+		<option values=artista169>MANOLO OTERO</option>
+		<option values=artista170>MANUELA TORRES[GLORIA]</option>
+		<option values=artista171>MARC ANTHONY</option>
+		<option values=artista172>MARCO ANTONIO MUÑIZ</option>
+		<option values=artista173>MARCOS LLUNAS</option>
+		<option values=artista174>MARIA CONCHITA ALONSO</option>
+		<option values=artista175>MARIA MARTHA SERRA LIMA</option>
+		<option values=artista176>MARISELA</option>
+		<option values=artista177>MARISOL</option>
+		<option values=artista178>MASSIMO RANIERI</option>
+		<option values=artista179>MATIA BAZAR</option>
+		<option values=artista180>MATT MONROE</option>
+		<option values=artista181>MECANO</option>
+		<option values=artista182>MEDLEY 70'S</option>
+		<option values=artista183>MICHEL FUGAIN</option>
+		<option values=artista184>MIGUEL BOSE</option>
+		<option values=artista185>MIGUEL GALLARDO</option>
+		<option values=artista186>MIGUEL RIOS</option>
+		<option values=artista187>MIJARES & LUCERO</option>
+		<option values=artista188>MIJARES</option>
+		<option values=artista189>MIMI IBARRA</option>
+		<option values=artista190>MIRLA CASTELLANOS</option>
+		<option values=artista191>MOCEDADES</option>
+		<option values=artista192>MYRIAM HERNANDEZ</option>
+		<option values=artista193>NAT KING COLE</option>
+		<option values=artista194>NELSON NED</option>
+		<option values=artista195>NICOLA DI BARI</option>
+		<option values=artista196>NILTON CESAR</option>
+		<option values=artista197>NINO BRAVO & NELSON NED</option>
+		<option values=artista198>NINO BRAVO</option>
+		<option values=artista199>NSQ & LOS NSC</option>
+		<option values=artista200>OLGA TAÑON</option>
+		<option values=artista201>ORLANDO NETTI</option>
+		<option values=artista202>OSCAR DE LEON</option>
+		<option values=artista203>PABLO ABRAIRA</option>
+		<option values=artista204>PALOMA SAN BASILIO</option>
+		<option values=artista205>PAMELA CORTEZ</option>
+		<option values=artista206>PANDORA</option>
+		<option values=artista207>PATRICIA MANTEROLA</option>
+		<option values=artista208>PAULINA RUBIO</option>
+		<option values=artista209>PECOS KANVAS</option>
+		<option values=artista210>PEDRO & PEDRO</option>
+		<option values=artista211>PEDRO FERNANDEZ</option>
+		<option values=artista212>PEDRO SUAREZ VERTIZ</option>
+		<option values=artista213>PHIL COLLINS</option>
+		<option values=artista214>PIERO</option>
+		<option values=artista215>PILAR MONTENEGRO</option>
+		<option values=artista216>POMADA</option>
+		<option values=artista217>PUNTO SEIS</option>
+		<option values=artista218>RAFAELA CARRA</option>
+		<option values=artista219>RAPHAEL</option>
+		<option values=artista220>RAUL ABRAMZON</option>
+		<option values=artista221>RENE & RENE</option>
+		<option values=artista222>RICARDO ARJONA</option>
+		<option values=artista223>RICARDO DEL TURCO</option>
+		<option values=artista224>RICARDO MONTANER</option>
+		<option values=artista225>RICARDO RODA</option>
+		<option values=artista226>RICKY MARTIN</option>
+		<option values=artista227>RICOS Y POBRES</option>
+		<option values=artista228>RITA PAVONE</option>
+		<option values=artista229>RITCHIE</option>
+		<option values=artista230>ROBBIE WILLIAMS</option>
+		<option values=artista231>ROBERTO CARLOS</option>
+		<option values=artista232>ROBERTO JORDAN</option>
+		<option values=artista233>ROBERTO LEDESMA</option>
+		<option values=artista234>ROBERTO LUTTI & DOMENICA DI SALVO</option>
+		<option values=artista235>ROCIO DURCAL</option>
+		<option values=artista236>RUMBA 3</option>
+		<option values=artista237>SABÚ</option>
+		<option values=artista238>SAFARI</option>
+		<option values=artista239>SANDRO</option>
+		<option values=artista240>SERGIO DALMA</option>
+		<option values=artista241>SERGIO FACHELLI</option>
+		<option values=artista242>SHAKIRA</option>
+		<option values=artista243>SILVANA DI LORENZO</option>
+		<option values=artista244>SIN BANDERA</option>
+		<option values=artista245>SO PRA CONTRARIAR</option>
+		<option values=artista246>SODA STEREO</option>
+		<option values=artista247>SOLERA</option>
+		<option values=artista248>SONORA MATANCERA</option>
+		<option values=artista249>TERRY WINTER</option>
+		<option values=artista250>THALIA</option>
+		<option values=artista251>TIZIANO FERRO</option>
+		<option values=artista252>TORMENTA</option>
+		<option values=artista253>TRANZAS</option>
+		<option values=artista254>TRIGO LIMPIO</option>
+		<option values=artista255>VALERIA MONGARDINI</option>
+		<option values=artista256>VALS</option>
+		<option values=artista257>VICKY CARR</option>
+		<option values=artista258>VILLANCICO</option>
+		<option values=artista259>VILMA PALMA</option>
+		<option values=artista260>VIRUS</option>
+		<option values=artista261>WE ALL TOGETHER</option>
+		<option values=artista262>WILKINS</option>
+		<option values=artista263>YORDY</option>
+		<option values=artista264>YURI</option>
+		<option values=artista265>ZUCCHERO & FER</option>
+	</select>
+	
+	<font color="WHITE">
+	<span>Canción a buscar</span>
+	</font>
+	<input type="text" name="cancion">
+	<button type="button">Buscar</button>
+	<br>
+	<br>
+	<font color="WHITE">
+	  <table>
+	  <caption>Listado de canciones</caption>
+		<tr> <th>Canción</th> <th>Artista</th> </tr>
+		<tr> <td>Muy juntos[PRO]</td> <td>ADAMO</td></tr>
+		<tr> <td>Nuestra Novela[Original]</td> <td>ADAMO</td></tr>
+		<tr> <td>Por que yo quiero[PRO]</td> <td>ADAMO</td></tr>
+		<tr> <td>Maracas[PRO]</td> <td>ALBERTO  VASQUEZ & J SEBASTIAN</td></tr>
+		<tr> <td>Te Llegara una Rosa</td> <td>ALBERTO CORTEZ</td></tr>
+		<tr> <td>No sé por que te quiero</td> <td>ALBERTO PLAZA</td></tr>
+		<tr> <td>Hacer el Amor con otro</td> <td>ALEJANDRA GUZMAN</td></tr>
+		<tr> <td>Llama por favor</td> <td>ALEJANDRA GUZMAN</td></tr>
+		<tr> <td>Mirala, mirala[PRO]</td> <td>ALEJANDRA GUZMAN</td></tr>
+		<tr> <td>Yo te esperaba[PRO]</td> <td>ALEJANDRA GUZMAN</td></tr>
+		<tr> <td>En el medio del camino</td> <td>ALEJANDRO & BETH</td></tr>
+		<tr> <td>No se olvidar(shaka)</td> <td>ALEJANDRO FERNANDEZ</td></tr>
+		<tr> <td>Si Tu Supieras[Original]</td> <td>ALEJANDRO FERNANDEZ</td></tr>
+		<tr> <td>Secretos[PRIVADO]</td> <td>ALEJANDRO LERNER</td></tr>
+		<tr> <td>Secretos[PRO]</td> <td>ALEJANDRO LERNER</td></tr>
+		<tr> <td>Una noche</td> <td>ALEJANDRO SANZ & ANDREA CORRS</td></tr>
+		<tr> <td>Quiero morir En Tu Veneno[PRO]</td> <td>ALEJANDRO SANZ</td></tr>
+		<tr> <td>Si hay Dios</td> <td>ALEJANDRO SANZ</td></tr>
+		<tr> <td>Amigos[DCM-ACB]</td> <td>ALEX CAMPOS</td></tr>
+		<tr> <td>Poema</td> <td>ALTEMAR DUTRA</td></tr>
+		<tr> <td>De Punta a punta[PRO]</td> <td>ALVARO TORRES</td></tr>
+		<tr> <td>De Que Me Sirve Quererte[ORIGINAL]</td> <td>ALVARO TORRES</td></tr>
+		<tr> <td>Hazme olvidarla[PRO]</td> <td>ALVARO TORRES</td></tr>
+		<tr> <td>Nada Se Compara Contigo[ORIGINAL]</td> <td>ALVARO TORRES</td></tr>
+		<tr> <td>Yo Se Que Es Mentira[Original]</td> <td>AMAURY GUTIERREZ</td></tr>
+		<tr> <td>Casi Perfecto[PRO]</td> <td>ANA CIRRE</td></tr>
+		<tr> <td>Cosas del amor</td> <td>ANA GABRIEL & VICKY CARR</td></tr>
+		<tr> <td>Luna</td> <td>ANA GABRIEL</td></tr>
+		<tr> <td>Simplemente amigos</td> <td>ANA GABRIEL</td></tr>
+		<tr> <td>Callados[DCM]</td> <td>ANGELA CARRASCO & CAMILO SESTO</td></tr>
+		<tr> <td>Caribe[PRO]</td> <td>ANGELA CARRASCO & WILLY CHIRIGNO</td></tr>
+		<tr> <td>Caribe[PRO]2</td> <td>ANGELA CARRASCO & WILLY CHIRIGNO</td></tr>
+		<tr> <td>Adonde va nuestro Amor[PRO]</td> <td>ANGELICA MARIA</td></tr>
+		<tr> <td>Recuerdos del alma[PRO2]</td> <td>ANTONELLA ARANCIO</td></tr>
+		<tr> <td>Recuerdos del alma[PRO]</td> <td>ANTONELLA ARANCIO</td></tr>
+		<tr> <td>Arráncame la vida[PRO]</td> <td>ANTONIETA</td></tr>
+		<tr> <td>Cuando calienta el sol[Rock lento]</td> <td>ANTONIO PRIETO</td></tr>
+		<tr> <td>Algo contigo[PRIVADO]</td> <td>ARMANDO MANZANERO</td></tr>
+		<tr> <td>Medley[MM]</td> <td>ARMANDO MANZANERO</td></tr>
+		<tr> <td>Mia2[PRO en XG]</td> <td>ARMANDO MANZANERO</td></tr>
+		<tr> <td>Mia[PRO en XG]</td> <td>ARMANDO MANZANERO</td></tr>
+		<tr> <td>Cantaré, Cantaras[COROS]</td> <td>ARTISTAS UNIDOS</td></tr>
+		<tr> <td>Baracunatana</td> <td>ATERCIOPELADOS</td></tr>
+		<tr> <td>Caraluna[FULL]</td> <td>BACILOS</td></tr>
+		<tr> <td>Conociendote[JA]</td> <td>BANANA</td></tr>
+		<tr> <td>Ella Está Con Lágrimas En Los Ojos[DCM]</td> <td>BANANA</td></tr>
+		<tr> <td>Nadie podrá hacerme olvidar</td> <td>BANANA</td></tr>
+		<tr> <td>Noche Tormentosa</td> <td>BANANA</td></tr>
+		<tr> <td>Nuestro amor comenzo a vivir[DCM]</td> <td>BANANA</td></tr>
+		<tr> <td>Como tu</td> <td>BASILIO</td></tr>
+		<tr> <td>Como tu[PRO]</td> <td>BASILIO</td></tr>
+		<tr> <td>Personalidad[PRO]</td> <td>BILLY CAFFARO</td></tr>
+		<tr> <td>En Bancarrota[PRO]</td> <td>BRAULIO</td></tr>
+		<tr> <td>Amor por ti (DCM)</td> <td>BUDDY RICHARD</td></tr>
+		<tr> <td>Amor Por Ti[PRO]</td> <td>BUDDY RICHARD</td></tr>
+		<tr> <td>Balada de la Tristeza[PRO]</td> <td>BUDDY RICHARD</td></tr>
+		<tr> <td>Dulcemente</td> <td>BUDDY RICHARD</td></tr>
+		<tr> <td>Guitarra toca otra vez[ACB]</td> <td>BUDDY RICHARD</td></tr>
+		<tr> <td>Si Me Vas Abandonar[PRO]</td> <td>BUDDY RICHARD</td></tr>
+		<tr> <td>Te necesito[PRIVADO]</td> <td>BUDDY RICHARD</td></tr>
+		<tr> <td>Tu cariño se me va[PRIVADO]</td> <td>BUDDY RICHARD</td></tr>
+		<tr> <td>Perdí mi oportunidad[PRO]</td> <td>CADILLACS</td></tr>
+		<tr> <td>Callados[Original]</td> <td>CAMILO SESTO & ANGELA CARRASCO</td></tr>
+		<tr> <td>A Escondidas[PRO]</td> <td>CAMILO SESTO</td></tr>
+		<tr> <td>Piel Canela[PRO]</td> <td>CANCION POPULAR</td></tr>
+		<tr> <td>Cómo fue[DCM]</td> <td>CARLOS JAVIER BELTRAN</td></tr>
+		<tr> <td>Escúchame</td> <td>CARLOS PONCE</td></tr>
+		<tr> <td>Mujer con pantalones</td> <td>CARLOS PONCE</td></tr>
+		<tr> <td>Carito[Original]</td> <td>CARLOS VIVES</td></tr>
+		<tr> <td>La gota fría</td> <td>CARLOS VIVES</td></tr>
+		<tr> <td>Matilde Lina[PRO]</td> <td>CARLOS VIVES</td></tr>
+		<tr> <td>Guantanamera (shakatinizado)</td> <td>CELIA CRUZ</td></tr>
+		<tr> <td>Tus Ojos[Shaka]</td> <td>CESAR COSTA</td></tr>
+		<tr> <td>Fuiste un Trozo de Hielo</td> <td>CHAYANNE</td></tr>
+		<tr> <td>Tiempo de vals[DCM]</td> <td>CHAYANNE</td></tr>
+		<tr> <td>Tiempo de Vals[PRO]</td> <td>CHAYANNE</td></tr>
+		<tr> <td>Juguete[DCM]</td> <td>CHEO FELICIANO</td></tr>
+		<tr> <td>Carreteras mojadas[ORIG]</td> <td>CHRISTIAN MEIER</td></tr>
+		<tr> <td>Carreteras mojadas[PRO]</td> <td>CHRISTIAN MEIER</td></tr>
+		<tr> <td>Es por Tí[PRO]</td> <td>COMPLICES</td></tr>
+		<tr> <td>Volverás</td> <td>CONTINUADOS</td></tr>
+		<tr> <td>Lloran las rosas[PRO]</td> <td>CRISTIAN CASTRO</td></tr>
+		<tr> <td>Mi vida sin tu amor[PRO]</td> <td>CRISTIAN CASTRO</td></tr>
+		<tr> <td>Bueno es alabar[ACB]</td> <td>DANILO MONTERO</td></tr>
+		<tr> <td>Fiesta  en el corazon[ACB]</td> <td>DANILO MONTERO</td></tr>
+		<tr> <td>Niña no te pintes tanto[PRO]</td> <td>DANNY DANIEL</td></tr>
+		<tr> <td>Se que me engañaste un dia[PRO]</td> <td>DANNY DANIEL</td></tr>
+		<tr> <td>El Amigo es[PRO]</td> <td>DARIO BALDAN BEMBO</td></tr>
+		<tr> <td>Adios Amor Adios</td> <td>DEMIS ROUSSOS</td></tr>
+		<tr> <td>Cantar Hasta Morir[PRIVADO]</td> <td>DIEGO TORRES</td></tr>
+		<tr> <td>Dejame estar[PRO]</td> <td>DIEGO TORRES</td></tr>
+		<tr> <td>Penélope[TC]</td> <td>DIEGO TORRES</td></tr>
+		<tr> <td>La Ladrona[Original]</td> <td>DIEGO VERDAGUER</td></tr>
+		<tr> <td>Nunca imaginé</td> <td>DJ OMAR</td></tr>
+		<tr> <td>Tiritando(DCM)</td> <td>DONALD</td></tr>
+		<tr> <td>Quince años[DCM-ACB]</td> <td>DUO DINAMICO</td></tr>
+		<tr> <td>Ese hombre[Original]</td> <td>DYANGO & PIMPINELA</td></tr>
+		<tr> <td>Por Volverte a Ver[PRO]</td> <td>DYANGO</td></tr>
+		<tr> <td>Pegame tu vicio[PRO]</td> <td>EDDY HERRERA</td></tr>
+		<tr> <td>La Nave del olvido[DCM]</td> <td>EL GRECO</td></tr>
+		<tr> <td>La Nave del olvido[orig]</td> <td>EL GRECO</td></tr>
+		<tr> <td>Bella Señora[PRO]</td> <td>EMMANUEL</td></tr>
+		<tr> <td>Esa triste guitarra[PRO]</td> <td>EMMANUEL</td></tr>
+		<tr> <td>Insoportablemente Bella[PRO]</td> <td>EMMANUEL</td></tr>
+		<tr> <td>Pobre Diablo[PRO]</td> <td>EMMANUEL</td></tr>
+		<tr> <td>Si o no[PRO]</td> <td>EMMANUEL</td></tr>
+		<tr> <td>Cada vez que digo adios[PRIV]</td> <td>ENANITOS VERDES</td></tr>
+		<tr> <td>El extraño del pelo largo</td> <td>ENANITOS VERDES</td></tr>
+		<tr> <td>Igual que ayer</td> <td>ENANITOS VERDES</td></tr>
+		<tr> <td>Tu carcel[PRO]</td> <td>ENANITOS VERDES</td></tr>
+		<tr> <td>100 kilos de barro</td> <td>ENRIQUE GUZMAN</td></tr>
+		<tr> <td>Adios mundo cruel</td> <td>ENRIQUE GUZMAN</td></tr>
+		<tr> <td>Tu Cabeza en mi Hombro</td> <td>ENRIQUE GUZMAN</td></tr>
+		<tr> <td>Susana[PRO]</td> <td>FAUSTO</td></tr>
+		<tr> <td>La espada en el corazón[ACB]</td> <td>FEDRA & MAXIMILIANO</td></tr>
+		<tr> <td>Flores amarillas</td> <td>FLORICIENTA</td></tr>
+		<tr> <td>Flores amarillas[ACB]</td> <td>FLORICIENTA</td></tr>
+		<tr> <td>Flores amarillas[DC-AC]</td> <td>FLORICIENTA</td></tr>
+		<tr> <td>Por que[Edicion-ACB]</td> <td>FLORICIENTA</td></tr>
+		<tr> <td>Waiting for a Girl Like You</td> <td>FOREIGNER</td></tr>
+		<tr> <td>El Sol, La Playa</td> <td>FORMULA V</td></tr>
+		<tr> <td>Lazos de amistad[Original]</td> <td>FORMULA V</td></tr>
+		<tr> <td>Lazos de Amistad[PRO]</td> <td>FORMULA V</td></tr>
+		<tr> <td>Solo sin ti[PRO]</td> <td>FORMULA V</td></tr>
+		<tr> <td>Solo sin ti[PRO]1</td> <td>FORMULA V</td></tr>
+		<tr> <td>Avenida Larco[PRO]</td> <td>FRAGIL</td></tr>
+		<tr> <td>Buen Perdedor[PRO]</td> <td>FRANCO DE VITA</td></tr>
+		<tr> <td>Como decir que no[PRO]</td> <td>FRANCO DE VITA</td></tr>
+		<tr> <td>Será[ACUSTICO]</td> <td>FRANCO DE VITA</td></tr>
+		<tr> <td>Te amo[PRO]</td> <td>FRANCO DE VITA</td></tr>
+		<tr> <td>Respiro</td> <td>FRANCO SIMONE</td></tr>
+		<tr> <td>Te regalo mis ojos[ACB]</td> <td>GABRIELA FERRI</td></tr>
+		<tr> <td>Me bebi tu recuerdo</td> <td>GALI GALIANO</td></tr>
+		<tr> <td>Mi historia entre tus dedos[ORIGINAL]</td> <td>GIANLUCA GRIGNANI</td></tr>
+		<tr> <td>Mi historia entre tus dedos[SHAKA]</td> <td>GIANLUCA GRIGNANI</td></tr>
+		<tr> <td>Se que piensas en mi[PRO]</td> <td>GIANMARCO ZIGNAGO</td></tr>
+		<tr> <td>Te mentiría</td> <td>GIANMARCO ZIGNAGO</td></tr>
+		<tr> <td>Las Puertas Del Cielo</td> <td>GIGIOLA CINQUETTI</td></tr>
+		<tr> <td>Un amor para la historia[DCM2]</td> <td>GILBERTO SANTAROSA</td></tr>
+		<tr> <td>Un amor para la historia[DCM]</td> <td>GILBERTO SANTAROSA</td></tr>
+		<tr> <td>De la noche a la mañana[PRO]</td> <td>GRUPO ELEFANTE</td></tr>
+		<tr> <td>El abandonado[PRO]</td> <td>GRUPO ELEFANTE</td></tr>
+		<tr> <td>Dame solo un minuto</td> <td>GRUPO TEMPANO</td></tr>
+		<tr> <td>Barco a la Deriva[PRO]</td> <td>GUILLERMO DAVILA</td></tr>
+		<tr> <td>Cuando Se Acaba El Amor[PRO]</td> <td>GUILLERMO DAVILA</td></tr>
+		<tr> <td>Enamorándome mas de ti</td> <td>GUILLERMO DAVILA</td></tr>
+		<tr> <td>Por Amarte Tanto</td> <td>GUILLERMO DAVILA</td></tr>
+		<tr> <td>Solo pienso en ti</td> <td>GUILLERMO DAVILA</td></tr>
+		<tr> <td>Amor del bueno[PRIVADO]</td> <td>HECTOR MONTANER</td></tr>
+		<tr> <td>Amor del bueno[PRO SM]</td> <td>HECTOR MONTANER</td></tr>
+		<tr> <td>Amor del bueno[PRO]</td> <td>HECTOR MONTANER</td></tr>
+		<tr> <td>Cancion Final</td> <td>HEIDI</td></tr>
+		<tr> <td>Cancion Inicio</td> <td>HEIDI</td></tr>
+		<tr> <td>Chicas Cocodrilo[PRO]</td> <td>HOMBRES G</td></tr>
+		<tr> <td>Por que te amo</td> <td>I CAMALEONTI</td></tr>
+		<tr> <td>Por que te amo2</td> <td>I CAMALEONTI</td></tr>
+		<tr> <td>Dame solo un minuto</td> <td>I POOH</td></tr>
+		<tr> <td>Debes Comprenderme</td> <td>I POOH</td></tr>
+		<tr> <td>Asi fue[PRO]</td> <td>ISABEL PANTOJA</td></tr>
+		<tr> <td>Era mi vida él</td> <td>ISABEL PANTOJA</td></tr>
+		<tr> <td>Hoy quiero confesar</td> <td>ISABEL PANTOJA</td></tr>
+		<tr> <td>Se me enamora el alma[PRO]</td> <td>ISABEL PANTOJA</td></tr>
+		<tr> <td>Cataclismo[PRO]</td> <td>JAVIER SOLIS</td></tr>
+		<tr> <td>Cuatro Cirios(PRO)</td> <td>JAVIER SOLIS</td></tr>
+		<tr> <td>He Sabido Que Te Amaba[PROVSC]</td> <td>JAVIER SOLIS</td></tr>
+		<tr> <td>La Media Vuelta[Original]</td> <td>JAVIER SOLIS</td></tr>
+		<tr> <td>Corazón de poeta</td> <td>JEANETTE</td></tr>
+		<tr> <td>Soy Rebelde[ACB]</td> <td>JEANETTE</td></tr>
+		<tr> <td>Soy rebelde[Original]</td> <td>JEANETTE</td></tr>
+		<tr> <td>Vuela muy alto[PRO]</td> <td>JERRY RIVERA</td></tr>
+		<tr> <td>Ven te necesito[ACB-GODSPEL]</td> <td>JESUS ADRIAN ROMERO & LILLY GOODMAN</td></tr>
+		<tr> <td>A sus pies[ACB]</td> <td>JESUS ADRIAN ROMERO</td></tr>
+		<tr> <td>Abre Los Cielos[ACB]</td> <td>JESUS ADRIAN ROMERO</td></tr>
+		<tr> <td>Jesús es el señor</td> <td>JESUS ADRIAN ROMERO</td></tr>
+		<tr> <td>Prefiero a Cristo[ACB]</td> <td>JESUS ADRIAN ROMERO</td></tr>
+		<tr> <td>Cuanto te Amo[PRO]</td> <td>JIMMY FONTANA</td></tr>
+		<tr> <td>Secreto de amor</td> <td>JOAN SEBASTIAN</td></tr>
+		<tr> <td>Si tu no has de volver[PRO]</td> <td>JOE DASSIN</td></tr>
+		<tr> <td>Huellas - live[PRO]</td> <td>JOE VASCONCELLOS</td></tr>
+		<tr> <td>Contigo en la playa[Orig]</td> <td>JORGE CONTI</td></tr>
+		<tr> <td>Carmelina[DCM]</td> <td>JORGE CORREA</td></tr>
+		<tr> <td>Pa' todo el año[PRO]</td> <td>JOSE ALFREDO JIMENEZ</td></tr>
+		<tr> <td>Se Canso De Rogarme[Edic ACB]</td> <td>JOSE ALFREDO JIMENEZ</td></tr>
+		<tr> <td>Aguanta corazón[PRO]</td> <td>JOSE AUGUSTO</td></tr>
+		<tr> <td>Aquella Nube Que Pasa[Orig]</td> <td>JOSE AUGUSTO</td></tr>
+		<tr> <td>Candilejas[Vers Orig]</td> <td>JOSE AUGUSTO</td></tr>
+		<tr> <td>De Que Vale Tener Todo en la Vida[PRO]</td> <td>JOSE AUGUSTO</td></tr>
+		<tr> <td>La verdad siempre aparece[PRO]</td> <td>JOSE AUGUSTO</td></tr>
+		<tr> <td>Mujer[PRO]</td> <td>JOSE AUGUSTO</td></tr>
+		<tr> <td>Angela[ACB]</td> <td>JOSE FELICIANO</td></tr>
+		<tr> <td>Angela[ACB_DC]</td> <td>JOSE FELICIANO</td></tr>
+		<tr> <td>Cuando pienso en ti[PRO]</td> <td>JOSE FELICIANO</td></tr>
+		<tr> <td>Para decir adios</td> <td>JOSE FELICIANO</td></tr>
+		<tr> <td>Que Sera[PRO]</td> <td>JOSE FELICIANO</td></tr>
+		<tr> <td>Samba pa' tí[PRO]</td> <td>JOSE FELICIANO</td></tr>
+		<tr> <td>Te quiero asi[DCM-ACB]</td> <td>JOSE JOSE & LANI HALL</td></tr>
+		<tr> <td>Te Quiero Asi[PRO]</td> <td>JOSE JOSE & LANY HALL</td></tr>
+		<tr> <td>Entre la espada y la pared[PRO]</td> <td>JOSE JOSE & PIMPINELA</td></tr>
+		<tr> <td>Amnesia[PRO]</td> <td>JOSE JOSE</td></tr>
+		<tr> <td>El Triste [Vers_Orig]</td> <td>JOSE JOSE</td></tr>
+		<tr> <td>Lo que no fue no será[PRO]</td> <td>JOSE JOSE</td></tr>
+		<tr> <td>Me vas a hechar de menos[PRO]</td> <td>JOSE JOSE</td></tr>
+		<tr> <td>Mujeriego[PRO]</td> <td>JOSE JOSE</td></tr>
+		<tr> <td>No Me Digas Que Te Vas[Pro]</td> <td>JOSE JOSE</td></tr>
+		<tr> <td>Te quiero tal como eres[PRO]</td> <td>JOSE JOSE</td></tr>
+		<tr> <td>Y que[PRO]</td> <td>JOSE JOSE</td></tr>
+		<tr> <td>Cuando vuelvas[Mejor]</td> <td>JOSE LUIS PERALES</td></tr>
+		<tr> <td>Dime</td> <td>JOSE LUIS PERALES</td></tr>
+		<tr> <td>El amor[Original]</td> <td>JOSE LUIS PERALES</td></tr>
+		<tr> <td>La espera[PRO]</td> <td>JOSE LUIS PERALES</td></tr>
+		<tr> <td>La llamaban loca[Original]</td> <td>JOSE LUIS PERALES</td></tr>
+		<tr> <td>Dueño de nada[PRO]</td> <td>JOSE LUIS RODRIGUEZ</td></tr>
+		<tr> <td>Pavo Real[PRO]</td> <td>JOSE LUIS RODRIGUEZ</td></tr>
+		<tr> <td>No por favor[PRO]</td> <td>JOSE VELEZ</td></tr>
+		<tr> <td>Balada para un Gordo[ACB]</td> <td>JUAN & JUAN</td></tr>
+		<tr> <td>Acariciame[Remix]</td> <td>JUAN BAU</td></tr>
+		<tr> <td>Devuelveme El Amor[ORIG]</td> <td>JUAN BAU</td></tr>
+		<tr> <td>Fantasia[PRO]</td> <td>JUAN BAU</td></tr>
+		<tr> <td>Los perdidos[PRO]</td> <td>JUAN CARLOS</td></tr>
+		<tr> <td>Amor eterno[Original]</td> <td>JUAN GABRIEL</td></tr>
+		<tr> <td>Bachata Rosa[PRO]</td> <td>JUAN LUIS GUERRA</td></tr>
+		<tr> <td>Ata una cinta amarilla[PRIVADO]</td> <td>JUAN RAMON</td></tr>
+		<tr> <td>A Dios le pido(Editada Edilberto Pineda)</td> <td>JUANES</td></tr>
+		<tr> <td>Es por ti</td> <td>JUANES</td></tr>
+		<tr> <td>Es por ti[Original]</td> <td>JUANES</td></tr>
+		<tr> <td>La Noche (PRO)</td> <td>JUANES</td></tr>
+		<tr> <td>La paga[PRO]</td> <td>JUANES</td></tr>
+		<tr> <td>Fotografía[COSQ]</td> <td>JUANES Y NELLY FURTADO</td></tr>
+		<tr> <td>Fotografía[PRO]</td> <td>JUANES Y NELLY FURTADO</td></tr>
+		<tr> <td>De niña a mujer[PRO]</td> <td>JULIO IGLESIAS</td></tr>
+		<tr> <td>Me olvidé de vivir[ORIGINAL]</td> <td>JULIO IGLESIAS</td></tr>
+		<tr> <td>Si me dejas no vale[PRO]</td> <td>JULIO IGLESIAS</td></tr>
+		<tr> <td>Perdoname[PRIVADO]</td> <td>JUNIOR</td></tr>
+		<tr> <td>Perdoname[PRO]</td> <td>JUNIOR</td></tr>
+		<tr> <td>Romeo y Julieta</td> <td>KARINA</td></tr>
+		<tr> <td>Dice la gente, ojos que no ven</td> <td>KATUNGA</td></tr>
+		<tr> <td>Nectar de verano[PRO]</td> <td>KELA GATES</td></tr>
+		<tr> <td>Noche tu que sabes de todo[ACB]</td> <td>KIKE VILLANUEVA</td></tr>
+		<tr> <td>El extraño del pelo largo</td> <td>LA JOVEN GUARDIA</td></tr>
+		<tr> <td>La vida sigue igual</td> <td>LA LOCA MARIA</td></tr>
+		<tr> <td>Me estoy enamorando[PRO]</td> <td>LA MAFIA</td></tr>
+		<tr> <td>Cha cha cha[DC-AC]</td> <td>LA PEQUEÑA COMPAÑIA</td></tr>
+		<tr> <td>Cha cha cha[DCM-ACB]</td> <td>LA PEQUEÑA COMPAÑIA</td></tr>
+		<tr> <td>Mixtura[PRO-SM]</td> <td>LANY HALL</td></tr>
+		<tr> <td>Mixtura[PRO]</td> <td>LANY HALL</td></tr>
+		<tr> <td>Cuando se ama</td> <td>LAURA PAUSINI</td></tr>
+		<tr> <td>En ausencia de tí</td> <td>LAURA PAUSINI</td></tr>
+		<tr> <td>Fíate de mí</td> <td>LAURA PAUSINI</td></tr>
+		<tr> <td>La meta de mi viaje[PRO]</td> <td>LAURA PAUSINI</td></tr>
+		<tr> <td>Música será[PRO]</td> <td>LAURA PAUSINI</td></tr>
+		<tr> <td>Quiero decirte que te amo1</td> <td>LAURA PAUSINI</td></tr>
+		<tr> <td>Quiero decirte que te amo2</td> <td>LAURA PAUSINI</td></tr>
+		<tr> <td>Recuérdame</td> <td>LAURA PAUSINI</td></tr>
+		<tr> <td>Se fué[Balada]</td> <td>LAURA PAUSINI</td></tr>
+		<tr> <td>Somos hoy</td> <td>LAURA PAUSINI</td></tr>
+		<tr> <td>Un día sin tí</td> <td>LAURA PAUSINI</td></tr>
+		<tr> <td>Un error de los grandes</td> <td>LAURA PAUSINI</td></tr>
+		<tr> <td>Volveré junto a ti</td> <td>LAURA PAUSINI</td></tr>
+		<tr> <td>Corazón Granadin</td> <td>LAURENT VOUZLY</td></tr>
+		<tr> <td>Estoy Enamorado[PRO]</td> <td>LEANDRO & LEONARDO</td></tr>
+		<tr> <td>Celia[DCM]</td> <td>LEO DAN</td></tr>
+		<tr> <td>Como te extraño mi amor[CRM]</td> <td>LEO DAN</td></tr>
+		<tr> <td>Esa pared[PRO]</td> <td>LEO DAN</td></tr>
+		<tr> <td>Estelita[PRO]</td> <td>LEO DAN</td></tr>
+		<tr> <td>Santiago querido[PRO]</td> <td>LEO DAN</td></tr>
+		<tr> <td>Te he prometido</td> <td>LEO DAN</td></tr>
+		<tr> <td>Yo sé que no es feliz</td> <td>LEO DAN</td></tr>
+		<tr> <td>Mi tristeza es mia[pro]</td> <td>LEONARDO FAVIO</td></tr>
+		<tr> <td>No renunciare[ACB-DC]</td> <td>LOLITA</td></tr>
+		<tr> <td>12 Rosas[Original]</td> <td>LORENZO ANTONIO</td></tr>
+		<tr> <td>Bailemos[ACB]</td> <td>LORENZO DE SANTAMARIA</td></tr>
+		<tr> <td>Vete[PRO]</td> <td>LOS AMAYA</td></tr>
+		<tr> <td>Quiero que seas tu</td> <td>LOS ANGELES</td></tr>
+		<tr> <td>Quiero que seas tu[GODSPELL]</td> <td>LOS ANGELES</td></tr>
+		<tr> <td>A ti[PRO]</td> <td>LOS ANGELES NEGROS</td></tr>
+		<tr> <td>A tu recuerdo</td> <td>LOS ANGELES NEGROS</td></tr>
+		<tr> <td>Amar y vivir[PRO]</td> <td>LOS ANGELES NEGROS</td></tr>
+		<tr> <td>Ayer Preguntaron Por Ti[PRO]</td> <td>LOS ANGELES NEGROS</td></tr>
+		<tr> <td>Como quisiera decirte[Mejor]</td> <td>LOS ANGELES NEGROS</td></tr>
+		<tr> <td>Como quisiera decirte[PRIVADO]</td> <td>LOS ANGELES NEGROS</td></tr>
+		<tr> <td>Déjenme si estoy llorando[TC]</td> <td>LOS ANGELES NEGROS</td></tr>
+		<tr> <td>El porcentaje[DCM]</td> <td>LOS ANGELES NEGROS</td></tr>
+		<tr> <td>El porcentaje[PRO]</td> <td>LOS ANGELES NEGROS</td></tr>
+		<tr> <td>Esta noche la paso contigo[PRIVADO]</td> <td>LOS ANGELES NEGROS</td></tr>
+		<tr> <td>Medley I [PRIVADO]</td> <td>LOS ANGELES NEGROS</td></tr>
+		<tr> <td>Medley II[PRIVADO]</td> <td>LOS ANGELES NEGROS</td></tr>
+		<tr> <td>Mi ventana[PRO]</td> <td>LOS ANGELES NEGROS</td></tr>
+		<tr> <td>Porque te quiero[DCM]</td> <td>LOS ANGELES NEGROS</td></tr>
+		<tr> <td>Puerto Vacío[PRO]</td> <td>LOS ANGELES NEGROS</td></tr>
+		<tr> <td>Quisiera no quererte mas</td> <td>LOS ANGELES NEGROS</td></tr>
+		<tr> <td>Si conmigo tu no estas[PRO]</td> <td>LOS ANGELES NEGROS</td></tr>
+		<tr> <td>Si las flores pudieran hablar[DCM]</td> <td>LOS ANGELES NEGROS</td></tr>
+		<tr> <td>Tanto adios[DCM]</td> <td>LOS ANGELES NEGROS</td></tr>
+		<tr> <td>Vamos A Platicar</td> <td>LOS ANGELES NEGROS</td></tr>
+		<tr> <td>Yo lo comprendo[PRO]</td> <td>LOS ANGELES NEGROS</td></tr>
+		<tr> <td>Yo se que te acordaras[PRIVADO]</td> <td>LOS BRIOS</td></tr>
+		<tr> <td>Yo sé que te acordaras</td> <td>LOS BRIOS</td></tr>
+		<tr> <td>Chau, Chau María[Original]</td> <td>LOS BRIOS</td></tr>
+		<tr> <td>Porque estás enamorada[PRO]</td> <td>LOS BRIOS</td></tr>
+		<tr> <td>Tengo miedo</td> <td>LOS BRIOS</td></tr>
+		<tr> <td>Si no te hubieras ido[pro]</td> <td>LOS BUKIS [M_A_SOLIS]</td></tr>
+		<tr> <td>Dimelo tu[PRO]</td> <td>LOS CINCO LATINOS</td></tr>
+		<tr> <td>Medley[Privado]</td> <td>LOS CINCO LATINOS</td></tr>
+		<tr> <td>Nunca mas podré olvidarte[Original]</td> <td>LOS CUATRO SOLES</td></tr>
+		<tr> <td>Catedral de Winchester[PRO]</td> <td>LOS DOLTONS</td></tr>
+		<tr> <td>De repente me amas[Orig]</td> <td>LOS DOLTONS</td></tr>
+		<tr> <td>El último beso[PRO]</td> <td>LOS DOLTONS</td></tr>
+		<tr> <td>Esperame[PRIVADO]</td> <td>LOS DOLTONS</td></tr>
+		<tr> <td>Hombre solitario</td> <td>LOS DOLTONS</td></tr>
+		<tr> <td>La noche</td> <td>LOS DOLTONS</td></tr>
+		<tr> <td>La ventana[CFG]</td> <td>LOS DOLTONS</td></tr>
+		<tr> <td>Negro es negro[Original]</td> <td>LOS DOLTONS</td></tr>
+		<tr> <td>Nila</td> <td>LOS DOLTONS</td></tr>
+		<tr> <td>Nila[DCM]</td> <td>LOS DOLTONS</td></tr>
+		<tr> <td>Tema el amor[PRO]</td> <td>LOS DOLTONS</td></tr>
+		<tr> <td>Teresa[DCM]</td> <td>LOS DOLTONS</td></tr>
+		<tr> <td>Teresa[PRO]</td> <td>LOS DOLTONS</td></tr>
+		<tr> <td>Tu me dijiste adios</td> <td>LOS DOLTONS</td></tr>
+		<tr> <td>Vision de otoño[Original]</td> <td>LOS DOLTONS</td></tr>
+		<tr> <td>Detalles[Balada]</td> <td>LOS GALOS</td></tr>
+		<tr> <td>Entrega Total[ACB]</td> <td>LOS GALOS</td></tr>
+		<tr> <td>Entrega Total[shaka-acb]</td> <td>LOS GALOS</td></tr>
+		<tr> <td>Donde está esa promesa[DCM]</td> <td>LOS GATOS</td></tr>
+		<tr> <td>La balsa</td> <td>LOS GATOS</td></tr>
+		<tr> <td>No hay tiempo que perder[PRO]</td> <td>LOS GATOS</td></tr>
+		<tr> <td>Viento dile a la lluvia</td> <td>LOS GATOS</td></tr>
+		<tr> <td>Viento dile a la lluvia[DC-AC]</td> <td>LOS GATOS</td></tr>
+		<tr> <td>Olvidarte Nunca[DCM]</td> <td>LOS GOLPES</td></tr>
+		<tr> <td>Olvidarte Nunca[PRO]</td> <td>LOS GOLPES</td></tr>
+		<tr> <td>Lamento[ACB]</td> <td>LOS GRITOS</td></tr>
+		<tr> <td>Llorar por Dentro[DCM-PRIVADO]</td> <td>LOS HERMANOS CASTRO</td></tr>
+		<tr> <td>Agujetas de color de rosa</td> <td>LOS HOLLIGANS</td></tr>
+		<tr> <td>Adios, Borrón y cuenta nueva[ACB]</td> <td>LOS IRACUNDOS</td></tr>
+		<tr> <td>Agua con amor</td> <td>LOS IRACUNDOS</td></tr>
+		<tr> <td>Aprontate a vivir[PRO]</td> <td>LOS IRACUNDOS</td></tr>
+		<tr> <td>Barco azul</td> <td>LOS IRACUNDOS</td></tr>
+		<tr> <td>Buscándote[ACB]</td> <td>LOS IRACUNDOS</td></tr>
+		<tr> <td>Calla</td> <td>LOS IRACUNDOS</td></tr>
+		<tr> <td>Chiquilina[PRIVADO]</td> <td>LOS IRACUNDOS</td></tr>
+		<tr> <td>Con la misma moneda</td> <td>LOS IRACUNDOS</td></tr>
+		<tr> <td>Dime la verdad[ACB]</td> <td>LOS IRACUNDOS</td></tr>
+		<tr> <td>El Desengaño[ORIGINAL]</td> <td>LOS IRACUNDOS</td></tr>
+		<tr> <td>El Desengaño[PRO]</td> <td>LOS IRACUNDOS</td></tr>
+		<tr> <td>El juguete</td> <td>LOS IRACUNDOS</td></tr>
+		<tr> <td>El músico es[ACB]</td> <td>LOS IRACUNDOS</td></tr>
+		<tr> <td>El triunfador</td> <td>LOS IRACUNDOS</td></tr>
+		<tr> <td>En el verano</td> <td>LOS IRACUNDOS</td></tr>
+		<tr> <td>Es la lluvia que cae[ORIGINAL]</td> <td>LOS IRACUNDOS</td></tr>
+		<tr> <td>Felicidad[PRO]</td> <td>LOS IRACUNDOS</td></tr>
+		<tr> <td>Hablemos un poquito[ACB]</td> <td>LOS IRACUNDOS</td></tr>
+		<tr> <td>Infidelidad es tu traicion[PRO]</td> <td>LOS IRACUNDOS</td></tr>
+		<tr> <td>La bambola</td> <td>LOS IRACUNDOS</td></tr>
+		<tr> <td>La casa del sol naciente</td> <td>LOS IRACUNDOS</td></tr>
+		<tr> <td>La distancia es como el viento</td> <td>LOS IRACUNDOS</td></tr>
+		<tr> <td>La fuente</td> <td>LOS IRACUNDOS</td></tr>
+		<tr> <td>La juventud</td> <td>LOS IRACUNDOS</td></tr>
+		<tr> <td>La Lluvia Termino[ORIGINAL]</td> <td>LOS IRACUNDOS</td></tr>
+		<tr> <td>Las del puertas olvido</td> <td>LOS IRACUNDOS</td></tr>
+		<tr> <td>Lisa de los ojos azules</td> <td>LOS IRACUNDOS</td></tr>
+		<tr> <td>Lo de ayer fué un error[ACB]</td> <td>LOS IRACUNDOS</td></tr>
+		<tr> <td>Mamarracho[By E-Sorribas]</td> <td>LOS IRACUNDOS</td></tr>
+		<tr> <td>Marionetas de cartón</td> <td>LOS IRACUNDOS</td></tr>
+		<tr> <td>Me quebraste la vida</td> <td>LOS IRACUNDOS</td></tr>
+		<tr> <td>No se lo que me da[DC-AC]</td> <td>LOS IRACUNDOS</td></tr>
+		<tr> <td>Pasión y vida</td> <td>LOS IRACUNDOS</td></tr>
+		<tr> <td>Por qué eres así</td> <td>LOS IRACUNDOS</td></tr>
+		<tr> <td>Por qué me hiciste trampa</td> <td>LOS IRACUNDOS</td></tr>
+		<tr> <td>Porque no vale la pena</td> <td>LOS IRACUNDOS</td></tr>
+		<tr> <td>Recuerdo de amor[ACB-DC]</td> <td>LOS IRACUNDOS</td></tr>
+		<tr> <td>Recuerdo de Amor[ACB]</td> <td>LOS IRACUNDOS</td></tr>
+		<tr> <td>Reten la noche[PRIVADO]</td> <td>LOS IRACUNDOS</td></tr>
+		<tr> <td>Rio verde</td> <td>LOS IRACUNDOS</td></tr>
+		<tr> <td>Se que no volverás</td> <td>LOS IRACUNDOS</td></tr>
+		<tr> <td>Si nos mira la gente[ACB]</td> <td>LOS IRACUNDOS</td></tr>
+		<tr> <td>Soy un extraño que va[ACB]</td> <td>LOS IRACUNDOS</td></tr>
+		<tr> <td>Te lo pido de De Rodillas</td> <td>LOS IRACUNDOS</td></tr>
+		<tr> <td>Tormenta de verano</td> <td>LOS IRACUNDOS</td></tr>
+		<tr> <td>Tu me vas a dejar[ACB]</td> <td>LOS IRACUNDOS</td></tr>
+		<tr> <td>Tu ya no estaras</td> <td>LOS IRACUNDOS</td></tr>
+		<tr> <td>Tú con el</td> <td>LOS IRACUNDOS</td></tr>
+		<tr> <td>Un rincon del corazon[ACB]</td> <td>LOS IRACUNDOS</td></tr>
+		<tr> <td>Un rincon del corazon[DCM-ACB]</td> <td>LOS IRACUNDOS</td></tr>
+		<tr> <td>Un rincón del corazón[ACB-DCM]</td> <td>LOS IRACUNDOS</td></tr>
+		<tr> <td>Ven que estoy hirviendo</td> <td>LOS IRACUNDOS</td></tr>
+		<tr> <td>Vestido blanco</td> <td>LOS IRACUNDOS</td></tr>
+		<tr> <td>Y Me Quede En El Bar[ACB]</td> <td>LOS IRACUNDOS</td></tr>
+		<tr> <td>Y te has quedado sola</td> <td>LOS IRACUNDOS</td></tr>
+		<tr> <td>Me conformo[PRO]</td> <td>LOS MITOS</td></tr>
+		<tr> <td>Mirame[ACB]</td> <td>LOS MITOS</td></tr>
+		<tr> <td>Mirame[KG]</td> <td>LOS MITOS</td></tr>
+		<tr> <td>Apaga la tele[DC-AC]</td> <td>LOS MORUNOS</td></tr>
+		<tr> <td>Entre la tierra y el cielo[PRO]</td> <td>LOS NOCHEROS</td></tr>
+		<tr> <td>Preparen Candela[CRM]</td> <td>LOS PAKINES</td></tr>
+		<tr> <td>Caminemos[Original]</td> <td>LOS PANCHOS</td></tr>
+		<tr> <td>Rayito De Luna[Original]</td> <td>LOS PANCHOS</td></tr>
+		<tr> <td>Triunfamos[Original]</td> <td>LOS PANCHOS</td></tr>
+		<tr> <td>Ayer Tuve Un Sueño[PRO]</td> <td>LOS PASOS</td></tr>
+		<tr> <td>Amor imposible[PRO]</td> <td>LOS PASTELES VERDES</td></tr>
+		<tr> <td>El Reloj[Original]</td> <td>LOS PASTELES VERDES</td></tr>
+		<tr> <td>Emanuele[PRO]</td> <td>LOS PASTELES VERDES</td></tr>
+		<tr> <td>Esclavo y amo</td> <td>LOS PASTELES VERDES</td></tr>
+		<tr> <td>Hipocresia [PRO]</td> <td>LOS PASTELES VERDES</td></tr>
+		<tr> <td>No se que tengo[C100]</td> <td>LOS PASTELES VERDES</td></tr>
+		<tr> <td>No se que tengo[PRIVADO]</td> <td>LOS PASTELES VERDES</td></tr>
+		<tr> <td>Recuerdos de una noche[DCM]</td> <td>LOS PASTELES VERDES</td></tr>
+		<tr> <td>Como no voy a quererte</td> <td>LOS PRADOS</td></tr>
+		<tr> <td>Estrechez de corazon[By FN]</td> <td>LOS PRISIONEROS</td></tr>
+		<tr> <td>Mujer[PRO]</td> <td>LOS RANCHEROS</td></tr>
+		<tr> <td>Dos Cosas</td> <td>LOS TERRICOLAS</td></tr>
+		<tr> <td>Hoy te Confieso</td> <td>LOS TERRICOLAS</td></tr>
+		<tr> <td>Llorarás</td> <td>LOS TERRICOLAS</td></tr>
+		<tr> <td>Te juro que te amo</td> <td>LOS TERRICOLAS</td></tr>
+		<tr> <td>Vivirás</td> <td>LOS TERRICOLAS</td></tr>
+		<tr> <td>Canta rie y bebe[PRO]</td> <td>LOS TORIBIANITOS</td></tr>
+		<tr> <td>Peces en el rio[PRO]</td> <td>LOS TORIBIANITOS</td></tr>
+		<tr> <td>El privilegio de amar (FN)</td> <td>LUCERO & MIJARES</td></tr>
+		<tr> <td>Electricidad</td> <td>LUCERO</td></tr>
+		<tr> <td>Lo importante es sentir[PRO]</td> <td>LUCY VILLA</td></tr>
+		<tr> <td>Flor Dormida[Original]</td> <td>LUIS ANGEL</td></tr>
+		<tr> <td>La mentira[Original]</td> <td>LUIS MIGUEL</td></tr>
+		<tr> <td>Mucho corazon[PRIVADO]</td> <td>LUIS MIGUEL</td></tr>
+		<tr> <td>No me platiques mas[ACB]</td> <td>LUIS MIGUEL</td></tr>
+		<tr> <td>Dejame Entrar[pro]</td> <td>MANA</td></tr>
+		<tr> <td>Mariposa Traicionera</td> <td>MANA</td></tr>
+		<tr> <td>Te llore un rio[PRO]</td> <td>MANA</td></tr>
+		<tr> <td>Deja De LLorar</td> <td>MANOLO GALVAN</td></tr>
+		<tr> <td>Te quise, te quiero y te querré(PRO)</td> <td>MANOLO GALVAN</td></tr>
+		<tr> <td>Bella mujer[ACB]</td> <td>MANOLO OTERO</td></tr>
+		<tr> <td>Con toda el alma[ACB]</td> <td>MANOLO OTERO</td></tr>
+		<tr> <td>Hola amor mio[ACB]</td> <td>MANOLO OTERO</td></tr>
+		<tr> <td>La vie en rose[ORIG]</td> <td>MANOLO OTERO</td></tr>
+		<tr> <td>Maria Nomás</td> <td>MANOLO OTERO</td></tr>
+		<tr> <td>Vuelvo a ti[ACB]</td> <td>MANOLO OTERO</td></tr>
+		<tr> <td>Si supieras lo que hice</td> <td>MANUELA TORRES[GLORIA]</td></tr>
+		<tr> <td>Eres mi religión[PRO]</td> <td>MANÁ</td></tr>
+		<tr> <td>Valio la pena[PRO]</td> <td>MARC ANTHONY</td></tr>
+		<tr> <td>El despertar[PRO]</td> <td>MARCO ANTONIO MUÑIZ</td></tr>
+		<tr> <td>Sentir[PRO]</td> <td>MARCOS LLUNAS</td></tr>
+		<tr> <td>Vida[Original]</td> <td>MARCOS LLUNAS</td></tr>
+		<tr> <td>Acaríciame[Original]</td> <td>MARIA CONCHITA ALONSO</td></tr>
+		<tr> <td>Noche de Copas</td> <td>MARIA CONCHITA ALONSO</td></tr>
+		<tr> <td>Noche de Copas[Lenta]</td> <td>MARIA CONCHITA ALONSO</td></tr>
+		<tr> <td>Los amantes[PRO]</td> <td>MARIA MARTHA SERRA LIMA</td></tr>
+		<tr> <td>Sabor a mi[original]</td> <td>MARIA MARTHA SERRA LIMA</td></tr>
+		<tr> <td>Soy lo prohibido</td> <td>MARIA MARTHA SERRA LIMA</td></tr>
+		<tr> <td>Sola con mi soledad[DCM]</td> <td>MARISELA</td></tr>
+		<tr> <td>Aquel verano[PRIVADO]</td> <td>MARISOL</td></tr>
+		<tr> <td>Tu nombre me sabe a hierba[PROSM]</td> <td>MARISOL</td></tr>
+		<tr> <td>Tu nombre me sabe a hierba[PRO]</td> <td>MARISOL</td></tr>
+		<tr> <td>Rosas Rojas[PRO]</td> <td>MASSIMO RANIERI</td></tr>
+		<tr> <td>Si ardiera la ciudad</td> <td>MASSIMO RANIERI</td></tr>
+		<tr> <td>Por una hora a tu lado[PRO]</td> <td>MATIA BAZAR</td></tr>
+		<tr> <td>He sabido que te amaba[PRIVADO]</td> <td>MATT MONROE</td></tr>
+		<tr> <td>Hawaii bombay[PRO]</td> <td>MECANO</td></tr>
+		<tr> <td>La Tarde QTA - Descubrirás QEAE- Celoso</td> <td>MEDLEY 70'S</td></tr>
+		<tr> <td>Disco[PRIVADO]</td> <td>MEDLEY 70'S</td></tr>
+		<tr> <td>Una bella historia</td> <td>MICHEL FUGAIN</td></tr>
+		<tr> <td>Una bella historia[ORIG VERS]</td> <td>MICHEL FUGAIN</td></tr>
+		<tr> <td>Amiga[PRO]</td> <td>MIGUEL BOSE</td></tr>
+		<tr> <td>Bravo Muchachos[PRO]</td> <td>MIGUEL BOSE</td></tr>
+		<tr> <td>Morir de amor</td> <td>MIGUEL BOSE</td></tr>
+		<tr> <td>Te amare[DCM]</td> <td>MIGUEL BOSE</td></tr>
+		<tr> <td>Te amaré</td> <td>MIGUEL BOSE</td></tr>
+		<tr> <td>Hoy tengo ganas de ti[PRO]</td> <td>MIGUEL GALLARDO</td></tr>
+		<tr> <td>Otro ocupa mi lugar</td> <td>MIGUEL GALLARDO</td></tr>
+		<tr> <td>Tu Amante o Enemigo</td> <td>MIGUEL GALLARDO</td></tr>
+		<tr> <td>El Rio & Santa Lucía[Original]</td> <td>MIGUEL RIOS</td></tr>
+		<tr> <td>Privilegio de amar</td> <td>MIJARES & LUCERO</td></tr>
+		<tr> <td>Quizas Quizas[ORIGINAL]</td> <td>MIJARES</td></tr>
+		<tr> <td>Que tiene ella[PRIVADO]</td> <td>MIMI IBARRA</td></tr>
+		<tr> <td>Si No Estuvieras Tu[Original]</td> <td>MIRLA CASTELLANOS</td></tr>
+		<tr> <td>Desde que tu te has ido[Original]</td> <td>MOCEDADES</td></tr>
+		<tr> <td>Donde estás corazón[Original]</td> <td>MOCEDADES</td></tr>
+		<tr> <td>Eres tú, desde que tu, Himno a la alegría</td> <td>MOCEDADES</td></tr>
+		<tr> <td>Necesitando tu amor</td> <td>MOCEDADES</td></tr>
+		<tr> <td>Poxa[PRIVADO]</td> <td>MOCEDADES</td></tr>
+		<tr> <td>Secretaria[PRO]</td> <td>MOCEDADES</td></tr>
+		<tr> <td>Tómame o dejame[Original]</td> <td>MOCEDADES</td></tr>
+		<tr> <td>Tómame o déjame</td> <td>MOCEDADES</td></tr>
+		<tr> <td>Ay corazón2</td> <td>MYRIAM HERNANDEZ</td></tr>
+		<tr> <td>Ay corazón[ACB]</td> <td>MYRIAM HERNANDEZ</td></tr>
+		<tr> <td>El hombre que yo amo</td> <td>MYRIAM HERNANDEZ</td></tr>
+		<tr> <td>Huele a Peligro[PRO]</td> <td>MYRIAM HERNANDEZ</td></tr>
+		<tr> <td>Peligroso amor</td> <td>MYRIAM HERNANDEZ</td></tr>
+		<tr> <td>Te pareces tanto a el[CRM]</td> <td>MYRIAM HERNANDEZ</td></tr>
+		<tr> <td>Un hombre secreto[PRO]</td> <td>MYRIAM HERNANDEZ</td></tr>
+		<tr> <td>Ansiedad[PRO]</td> <td>NAT KING COLE</td></tr>
+		<tr> <td>Happy Birthday My Darlyng</td> <td>NELSON NED</td></tr>
+		<tr> <td>Si las flores pudieran hablar</td> <td>NELSON NED</td></tr>
+		<tr> <td>Todo pasará</td> <td>NELSON NED</td></tr>
+		<tr> <td>Como Violetas[ORIGINAL]</td> <td>NICOLA DI BARI</td></tr>
+		<tr> <td>El Extranjero[PRO]</td> <td>NICOLA DI BARI</td></tr>
+		<tr> <td>Lisa de los ojos azules[original]</td> <td>NICOLA DI BARI</td></tr>
+		<tr> <td>Los dias del arcoiris[PRO]</td> <td>NICOLA DI BARI</td></tr>
+		<tr> <td>Pueblo[PRO]</td> <td>NICOLA DI BARI</td></tr>
+		<tr> <td>Trotamundos[ORIGINAL]</td> <td>NICOLA DI BARI</td></tr>
+		<tr> <td>Un gran amor y nada más[Original]</td> <td>NICOLA DI BARI</td></tr>
+		<tr> <td>Vagabundo</td> <td>NICOLA DI BARI</td></tr>
+		<tr> <td>Amor amor amor[ACB2]</td> <td>NILTON CESAR</td></tr>
+		<tr> <td>Amor amor amor[ACB]</td> <td>NILTON CESAR</td></tr>
+		<tr> <td>La enamorada que soñé[Original]</td> <td>NILTON CESAR</td></tr>
+		<tr> <td>La Última Canción[ORIGINAL]</td> <td>NILTON CESAR</td></tr>
+		<tr> <td>Te Quiero, te quiero[PRO]</td> <td>NINO BRAVO & NELSON NED</td></tr>
+		<tr> <td>Elizabeth[DCM]</td> <td>NINO BRAVO</td></tr>
+		<tr> <td>La Puerta del amor[ORIGINAL]</td> <td>NINO BRAVO</td></tr>
+		<tr> <td>Un beso y una flor[PRO]</td> <td>NINO BRAVO</td></tr>
+		<tr> <td>Los Patos y las Patas[ORIGINAL]</td> <td>NSQ & LOS NSC</td></tr>
+		<tr> <td>Magdalena[PRO]</td> <td>NSQ & LOS NSC</td></tr>
+		<tr> <td>Sin Calzoncito</td> <td>NSQ & LOS NSC</td></tr>
+		<tr> <td>Vanidad[Original]</td> <td>NSQ & LOS NSC</td></tr>
+		<tr> <td>Y Basta ya</td> <td>OLGA TAÑON</td></tr>
+		<tr> <td>Y Basta Ya[DC-AC]</td> <td>OLGA TAÑON</td></tr>
+		<tr> <td>Clasico[PRIVADO]</td> <td>ORLANDO NETTI</td></tr>
+		<tr> <td>Detalles</td> <td>OSCAR DE LEON</td></tr>
+		<tr> <td>Llorarás[Original]</td> <td>OSCAR DE LEON</td></tr>
+		<tr> <td>Quien Tiene Un Duro De Amor[PRO]</td> <td>PABLO ABRAIRA</td></tr>
+		<tr> <td>Cariño mío[PRO]</td> <td>PALOMA SAN BASILIO</td></tr>
+		<tr> <td>La hiedra[PRO]</td> <td>PALOMA SAN BASILIO</td></tr>
+		<tr> <td>Luna De Miel[PRO]</td> <td>PALOMA SAN BASILIO</td></tr>
+		<tr> <td>Nadie como tu[PRO]</td> <td>PALOMA SAN BASILIO</td></tr>
+		<tr> <td>Dicen</td> <td>PAMELA CORTEZ</td></tr>
+		<tr> <td>Homenaje a Juan Gabriel</td> <td>PANDORA</td></tr>
+		<tr> <td>Matandome Suavemente Con Su Cancion</td> <td>PANDORA</td></tr>
+		<tr> <td>Solo El Y Yo[PRO]</td> <td>PANDORA</td></tr>
+		<tr> <td>Que el ritmo no pare</td> <td>PATRICIA MANTEROLA</td></tr>
+		<tr> <td>Yo no soy esa mujer</td> <td>PAULINA RUBIO</td></tr>
+		<tr> <td>Tan Dentro De Mi Alma[Pro]</td> <td>PECOS KANVAS</td></tr>
+		<tr> <td>Si digo juventud</td> <td>PEDRO & PEDRO</td></tr>
+		<tr> <td>Amor del alma[pro]</td> <td>PEDRO FERNANDEZ</td></tr>
+		<tr> <td>Mi forma de sentir</td> <td>PEDRO FERNANDEZ</td></tr>
+		<tr> <td>Me Eleve[Original]</td> <td>PEDRO SUAREZ VERTIZ</td></tr>
+		<tr> <td>Un vino una cerveza[PRO]</td> <td>PEDRO SUAREZ VERTIZ</td></tr>
+		<tr> <td>Grita que me amas[PRO]</td> <td>PHIL COLLINS</td></tr>
+		<tr> <td>Otro dia en el paraiso[Adap]</td> <td>PHIL COLLINS</td></tr>
+		<tr> <td>Llegando Llegaste[Original]</td> <td>PIERO</td></tr>
+		<tr> <td>Si vos te vas[CRM]</td> <td>PIERO</td></tr>
+		<tr> <td>Tengo La Piel Cansada[CRM]</td> <td>PIERO</td></tr>
+		<tr> <td>Quítame ese hombre</td> <td>PILAR MONTENEGRO</td></tr>
+		<tr> <td>Ella Está Con Lágrimas En Los Ojos</td> <td>POMADA</td></tr>
+		<tr> <td>Chiquilina</td> <td>PUNTO SEIS</td></tr>
+		<tr> <td>Yo no se vivir sin ti[PRO]</td> <td>RAFAELA CARRA</td></tr>
+		<tr> <td>En Carne Viva[PRO]</td> <td>RAPHAEL</td></tr>
+		<tr> <td>Que Sabe Nadie[PRO]</td> <td>RAPHAEL</td></tr>
+		<tr> <td>Somos[ACB_DC]</td> <td>RAPHAEL</td></tr>
+		<tr> <td>Una vieja canción de amor[DCM])</td> <td>RAUL ABRAMZON</td></tr>
+		<tr> <td>Angelito[DCM]</td> <td>RENE & RENE</td></tr>
+		<tr> <td>Cuando Llegue a Phoenix[DCM]</td> <td>RENE & RENE</td></tr>
+		<tr> <td>Lo Mucho Que Te Quiero</td> <td>RENE & RENE</td></tr>
+		<tr> <td>Minutos[PRO]</td> <td>RICARDO ARJONA</td></tr>
+		<tr> <td>Te conozco[PRO]</td> <td>RICARDO ARJONA</td></tr>
+		<tr> <td>Uno Como Tantos[ACB]</td> <td>RICARDO DEL TURCO</td></tr>
+		<tr> <td>Castillo azul[PRO]</td> <td>RICARDO MONTANER</td></tr>
+		<tr> <td>Honda[PRO]</td> <td>RICARDO MONTANER</td></tr>
+		<tr> <td>Que Ganas[PRO]</td> <td>RICARDO MONTANER</td></tr>
+		<tr> <td>Si tuviera que elegir[PRO]</td> <td>RICARDO MONTANER</td></tr>
+		<tr> <td>Verte dormida[PRO]</td> <td>RICARDO MONTANER</td></tr>
+		<tr> <td>Ligada a un granito de arena[PRO]</td> <td>RICARDO RODA</td></tr>
+		<tr> <td>Tal vez[PRO]</td> <td>RICKY MARTIN</td></tr>
+		<tr> <td>Donde Estaras[PRO]</td> <td>RICOS Y POBRES</td></tr>
+		<tr> <td>Me enamoro de tí</td> <td>RICOS Y POBRES</td></tr>
+		<tr> <td>Ay ay ay muchacho</td> <td>RITA PAVONE</td></tr>
+		<tr> <td>Mi niña veneno</td> <td>RITCHIE</td></tr>
+		<tr> <td>Angel[Re-adap]</td> <td>ROBBIE WILLIAMS</td></tr>
+		<tr> <td>Amada amante[Original]</td> <td>ROBERTO CARLOS</td></tr>
+		<tr> <td>Amor Perfecto[PRO]</td> <td>ROBERTO CARLOS</td></tr>
+		<tr> <td>Cama y mesa[PRO]</td> <td>ROBERTO CARLOS</td></tr>
+		<tr> <td>Camionero[ORIGINAL]</td> <td>ROBERTO CARLOS</td></tr>
+		<tr> <td>Concavo y convexo[PRO]</td> <td>ROBERTO CARLOS</td></tr>
+		<tr> <td>De que sirve Volar[PRO]</td> <td>ROBERTO CARLOS</td></tr>
+		<tr> <td>Desahogo[Original]</td> <td>ROBERTO CARLOS</td></tr>
+		<tr> <td>Detalles(PRO-TATY)</td> <td>ROBERTO CARLOS</td></tr>
+		<tr> <td>Detalles[Original]</td> <td>ROBERTO CARLOS</td></tr>
+		<tr> <td>Fiera herida[PRO]</td> <td>ROBERTO CARLOS</td></tr>
+		<tr> <td>La enamorada de un amigo mio[ORIG]</td> <td>ROBERTO CARLOS</td></tr>
+		<tr> <td>La Montaña[JCC2]</td> <td>ROBERTO CARLOS</td></tr>
+		<tr> <td>La Montaña[JCC]</td> <td>ROBERTO CARLOS</td></tr>
+		<tr> <td>Los Botones[ACB]</td> <td>ROBERTO CARLOS</td></tr>
+		<tr> <td>Mujer Pequeña[PRO]</td> <td>ROBERTO CARLOS</td></tr>
+		<tr> <td>No te apartes de mi</td> <td>ROBERTO CARLOS</td></tr>
+		<tr> <td>No te apartes de mi[PRIVADO]</td> <td>ROBERTO CARLOS</td></tr>
+		<tr> <td>Propuesta[PRO]</td> <td>ROBERTO CARLOS</td></tr>
+		<tr> <td>Quiero que te vayas al infierno</td> <td>ROBERTO CARLOS</td></tr>
+		<tr> <td>Simbolo sexual [PRIVADO]</td> <td>ROBERTO CARLOS</td></tr>
+		<tr> <td>Solamente una vez[PRO]</td> <td>ROBERTO CARLOS</td></tr>
+		<tr> <td>Todo para[ACB]</td> <td>ROBERTO CARLOS</td></tr>
+		<tr> <td>Tu en mi vida[ACB]</td> <td>ROBERTO CARLOS</td></tr>
+		<tr> <td>Un Millon De Amigos[PRO]</td> <td>ROBERTO CARLOS</td></tr>
+		<tr> <td>Yo Te Dare Un Cielo[Orig]</td> <td>ROBERTO CARLOS</td></tr>
+		<tr> <td>Yo te recuerdo[Original]</td> <td>ROBERTO CARLOS</td></tr>
+		<tr> <td>Dame una señal[DCM]</td> <td>ROBERTO JORDAN</td></tr>
+		<tr> <td>Rosa Marchita[PRO]</td> <td>ROBERTO JORDAN</td></tr>
+		<tr> <td>Camino del Puente</td> <td>ROBERTO LEDESMA</td></tr>
+		<tr> <td>Tu en mi vida[ACB]</td> <td>ROBERTO LUTTI & DOMENICA DI SALVO</td></tr>
+		<tr> <td>Tu me amas</td> <td>ROBERTO LUTTI & DOMENICA DI SALVO</td></tr>
+		<tr> <td>Amor en el aire[PRO]</td> <td>ROCIO DURCAL</td></tr>
+		<tr> <td>Como tu mujer</td> <td>ROCIO DURCAL</td></tr>
+		<tr> <td>Hay Amores(para toda la vida)[ORIGINAL]</td> <td>ROCIO DURCAL</td></tr>
+		<tr> <td>Jamás te dejaré</td> <td>ROCIO DURCAL</td></tr>
+		<tr> <td>Vestida de blanco[PRO]</td> <td>ROCIO DURCAL</td></tr>
+		<tr> <td>Señora[ORIGINAL]</td> <td>RUMBA 3</td></tr>
+		<tr> <td>Tengo Lo Que Quiero[PRO]</td> <td>RUMBA 3</td></tr>
+		<tr> <td>Mon amour, ma ben, ma femme</td> <td>SABÚ</td></tr>
+		<tr> <td>Estoy hecho un demonio[PRIVADO]</td> <td>SAFARI</td></tr>
+		<tr> <td>Por que yo te amo[PRO]</td> <td>SANDRO</td></tr>
+		<tr> <td>Te Propongo[PRO]</td> <td>SANDRO</td></tr>
+		<tr> <td>Déjame olvidarte[PRO]</td> <td>SERGIO DALMA</td></tr>
+		<tr> <td>El unico que te entiende[PRO]</td> <td>SERGIO FACHELLI</td></tr>
+		<tr> <td>Quiéreme Tal Como Soy</td> <td>SERGIO FACHELLI</td></tr>
+		<tr> <td>Quiéreme Tal Como Soy[ACB]</td> <td>SERGIO FACHELLI</td></tr>
+		<tr> <td>Antología[PRO]</td> <td>SHAKIRA</td></tr>
+		<tr> <td>Que me quedes tu[PRO]</td> <td>SHAKIRA</td></tr>
+		<tr> <td>Te dejo Madrid[PRO]</td> <td>SHAKIRA</td></tr>
+		<tr> <td>Grande, grande[PRO]</td> <td>SILVANA DI LORENZO</td></tr>
+		<tr> <td>Locuras tengo de tí</td> <td>SILVANA DI LORENZO</td></tr>
+		<tr> <td>Me muero por estar contigo</td> <td>SILVANA DI LORENZO</td></tr>
+		<tr> <td>Palabras, palabras</td> <td>SILVANA DI LORENZO</td></tr>
+		<tr> <td>No puedo tenerte[PRO]</td> <td>SIN BANDERA</td></tr>
+		<tr> <td>Toda Mujer[PRO]</td> <td>SO PRA CONTRARIAR</td></tr>
+		<tr> <td>En la ciudad de la furia</td> <td>SODA STEREO</td></tr>
+		<tr> <td>Pensamientos</td> <td>SOLERA</td></tr>
+		<tr> <td>Frenesi[SHAKA-DCM]</td> <td>SONORA MATANCERA</td></tr>
+		<tr> <td>Plazos Traicioneros[DCM]</td> <td>SONORA MATANCERA</td></tr>
+		<tr> <td>Vacaciones de Verano[ACB]</td> <td>TERRY WINTER</td></tr>
+		<tr> <td>A quien le importa[PRO]</td> <td>THALIA</td></tr>
+		<tr> <td>No me enseñaste[PRO]</td> <td>THALIA</td></tr>
+		<tr> <td>Rojo relativo</td> <td>TIZIANO FERRO</td></tr>
+		<tr> <td>Adios Chico de mi barrio</td> <td>TORMENTA</td></tr>
+		<tr> <td>Adios Chico de mi barrio[FN]</td> <td>TORMENTA</td></tr>
+		<tr> <td>Adolescente tierno</td> <td>TORMENTA</td></tr>
+		<tr> <td>Adolescente tierno[FN]</td> <td>TORMENTA</td></tr>
+		<tr> <td>Padre Sol[ACB]</td> <td>TORMENTA</td></tr>
+		<tr> <td>Un nuevo amor[PRO]</td> <td>TRANZAS</td></tr>
+		<tr> <td>Te Quiero Para Mi[PRO]</td> <td>TRIGO LIMPIO</td></tr>
+		<tr> <td>Si supieras amore[CRM]</td> <td>VALERIA MONGARDINI</td></tr>
+		<tr> <td>Si supieras amore[DCM]</td> <td>VALERIA MONGARDINI</td></tr>
+		</table>
+	</font>
+	</p> 
+</body>
+</html>

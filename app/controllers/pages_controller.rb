@@ -17,11 +17,10 @@ class PagesController < ApplicationController
   def contact_us
   end
   
-  
   def Login
   end
   
   def inicio
   end
-  
+
 end
